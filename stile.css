@@ -1,0 +1,88 @@
+body {
+    transition: background 0.5s , color 0.5s ;
+}
+
+body{
+    margin: 0;
+      background: repeating-linear-gradient(
+        to right,
+        #CC1F10,
+        #CC1F10 11%,
+        #FFFFFF 11%,
+        #FFFFFF 22%
+  );
+  min-height: 100vh;
+}
+header{
+    background-color: #00309B;
+    display: flex;
+    justify-content: right;
+    padding-right: 6%;
+    height: 60px;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.cambio{
+    background-color: #108771;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    transition: 0.5s all;
+    
+}
+.rrcambio{
+    background-color: #108771;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+    transition: 0.5s all;
+    display: none;
+}
+.cambio:hover{
+    background-color: #CC1F10;
+}
+.rrcambio:hover{
+    background-color: #1b1c22;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tex_conte{
+    width: 60%;
+    background-color: white;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.ti_conte{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+   
+}
+ 
+h1{
+    color: #00309B;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-bottom: 0;
+}
+.letra{ 
+    color: black;
+     font-family: "Kanit", sans-serif;
+     font-weight: 300;
+    font-style: italic;
+}
